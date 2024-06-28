@@ -94,18 +94,18 @@ Once the contract is deployed, you can interact with it by calling all the funct
 
 
 
-## To run the entire project you can use this steps
+# To run the entire project you can use this steps
 
 You will want to do the following steps to run the project :-
 
-*First of all , install the metamask wallet on Browser.
-Then follow the steps from this site https://docs.avax.network/build/dapp/smart-contracts/get-funds-faucet . On this site https://core.app/tools/testnet-faucet/?subnet=c&token=c choose Select Network as "Fuji (C-Chain)" , choose Select Token as "AVAX" , put Address as your metamask account address and get coupon code from this site https://guild.xyz/avalanche/avalanche-developers by passing requirements . Click on button "Add subnet to wallet" to add network to metamask and then click on button "Request 2 AVAX" to add Testnet AVAX native tokens to account .
-Add all files on the remix.
-Open "project.sol" file and in Solidity compiler section , drop-down Advanced Configurations and select EVM VERSION as "shanghai" and also tick the checkbox Enable optimization then click on the "Compile project.sol" button.
-In DEPLOY & RUN TRANSACTIONS section , Select ENVIRONMENT as "Injected Provider - Metamask" and select the account in which you have Testnet AVAX native tokens . Select the "Mtoken - project.sol" contract from the dropdown menu, and then click on the "Deploy" button after passing the name and symbol of token. Then confirm the transaction from metamask and now your contract is deployed .
+1. First of all , install the metamask wallet on Browser.
+2. After this , try following the steps from this site https://docs.avax.network/build/dapp/smart-contracts/get-funds-faucet . On this site https://core.app/tools/testnet-faucet/?subnet=c&token=c choose Select Network as "Fuji (C-Chain)" , choose Select Token as "AVAX" , put Address as your metamask account address and get coupon code from this site https://guild.xyz/avalanche/avalanche-developers by passing requirements . Click on button "Add subnet to wallet" to add network to metamask and then click on button "Request 2 AVAX" to add Testnet AVAX native tokens to account .
+3. Add all files on the remix.
+4. Open "AkDefenToken.sol" file and in Solidity compiler section , drop-down Advanced Configurations and select EVM VERSION as "london" and also tick the checkbox Enable optimization then click on the "Compile AkDefenToken.sol" button.
+5. In DEPLOY & RUN TRANSACTIONS section , Select ENVIRONMENT as "Injected Provider - Metamask" and select the account in which you have Testnet AVAX native tokens . Select the "Mtoken - project.sol" contract from the dropdown menu, and then click on the "Deploy" button after passing the name and symbol of token. Then confirm the transaction from metamask and now your contract is deployed .
 Once the contract is deployed, you can interact with it by calling all the functions and confirming all the transactions .
-You can check all the transactions , Degen tokens and left Testnet AVAX native tokens to confirm transactions(Used as gas fee) on the following AVALANCHE Testnet site https://subnets-test.avax.network/ by putting the metamask account address in the searchbar of site. You can also use Snowtrace site https://testnet.snowtrace.io/ if it is working by putting the metamask account address in the searchbar of site.
-Everything is Done , Our Project is completed.
+6. You can check all the transactions , Degen tokens and left Testnet AVAX native tokens to confirm transactions(Used as gas fee) on the following AVALANCHE Testnet site https://subnets-test.avax.network/ by putting the metamask account address in the searchbar of site. You can also use Snowtrace site https://testnet.snowtrace.io/ if it is working by putting the metamask account address in the searchbar of site.
+7. Everything is Done , Our Project is completed.
 ## Authors
 
 Aman Kumar - student 
